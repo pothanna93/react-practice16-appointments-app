@@ -1,0 +1,33 @@
+.app-listItem {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  margin: 10px;
+  width: 330px;
+  border-radius: 16px;
+  padding: 10px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.star-image {
+  width: 20px;
+  height: 20px;
+}
+.title {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+.date {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-family: 'roboto';
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,138 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.appointment-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  margin: 30px;
+}
+@media screen and (min-width: 768px) {
+  .appointment-container {
+    padding: 80px;
+  }
+}
+.input-elements-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: 30px;
+  color: #171f46;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-bottom: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 30px;
+  align-items: flex-start;
+}
+.input-element {
+  width: 100%;
+  min-width: 230px;
+  height: 46px;
+  border: 1px solid #b5b7c4;
+  outline: none;
+  font-size: 16px;
+  color: #9897f0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.label-element {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.image {
+  width: 460px;
+  height: 380px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    display: none;
+  }
+}
+
+.add-button {
+  color: #fff;
+  background-color: #8b5cf6;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+.start-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .start-button-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.start-button {
+  color: #9796f0;
+
+  border: 1px solid #8b5cf6;
+  margin: 0px;
+  font-size: 14px;
+  height: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 18px;
+}
+.appointment-heading {
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+.all-list-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.filter-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 16px;
+  border: none;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
